@@ -1,12 +1,27 @@
-@media screen and (max-width:859px) {
-   
+
+
+
+
+
+@media screen and (max-width:590px){
+   .nav-container
+   {
+    flex-direction: column;
+    padding: 20px;
+    
+   }
+   .logo-container{
+    padding-right: 150px;
+   }
+   .product-section{
+    flex-direction: column;
+   }
+   .product-container {
+  flex-direction: column;
 }
 
-
-
-
-@media screen and (max-width: 530px) {
-    body{
-        background-color: blue;
-    }
+.add{
+    flex-direction:column-reverse;
+   }
 }
+
