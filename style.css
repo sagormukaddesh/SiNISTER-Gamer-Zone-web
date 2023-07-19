@@ -194,6 +194,7 @@ body{
     width: 90%;
     display: flex;
     margin-left: 15%;
+    margin-bottom: 70px;
 }
 
 .add-description{
@@ -230,14 +231,11 @@ body{
 /*product-items section styles start hare*/
 
 .product-items-container{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
-    border: 1px solid red;
 
 }
 .product-variant{
@@ -253,6 +251,14 @@ body{
     display: flex;
 }
 
+.product-items-container a{
+    text-decoration: none;
+    color: black;
+
+}
+.product-items-container .product-variant{
+margin: 0 30px;
+} 
 
 
 
