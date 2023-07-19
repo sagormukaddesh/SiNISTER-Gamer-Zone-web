@@ -1,0 +1,414 @@
+
+
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.primary-title-color{
+    color: rgba(224, 0, 127, 0.875);
+}
+
+/*header section styles start hare*/
+.nav-container{
+    background: #efebeb;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}  
+
+.logo-container img{
+    width: 60px;
+   
+}
+
+.logo-text-container{
+   width: 150px;
+   font-size: 2.5rem; 
+}
+
+.nav-title-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.nav-titles{
+ display: flex;
+ align-items: center;
+}
+.nav-titles a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.nav-logo-text{
+    font-size:1.2rem;
+    margin-right: 10px;
+}
+.nav-logo{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    display: flex;
+    margin-right: 20px;
+}
+.nav-logo span{
+    gap: 20px;
+}
+.fa-brands{
+    font-size: 20px;  
+}
+.youtube-logo{
+    margin-right: 10px;
+}
+     /*header section styles end hare*/
+
+
+     /*main section start hare*/
+
+          
+     /*banner-section*/
+
+.contest-container{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid red;
+}
+.contest-text-section{
+    width: 50%;
+    border: 1px solid rebeccapurple;
+}
+.contest-banner-section{
+    width: 50%;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-container{
+    width:100% ;
+    height: 400px;
+    display:flex;  
+}
+.banner-text-container{
+    width: 50%;
+    margin: 0 auto;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.banner-main-title{
+    font-size: 2.5rem;
+    margin-bottom:-40px;
+
+}
+.banner-focus-title{
+    font-size: 4rem;
+    margin-top: 40px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.buttons-div{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+.buttons-div .button{
+    display: flex;
+    
+}
+.bannar-btn-1{
+    background-color: rgba(224, 0, 127, 0.875);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+}
+.banner-btn-2{
+    background-color: rgba(52, 233, 88, 0.875);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+    /*products-section-styles */
+
+.product-section-title{
+   text-align: center;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 13 00px;
+    margin:0 0 auto 30px;
+    min-height: 270px;
+    margin-bottom: 40px;
+}
+.single-product{
+    width: 96%;
+}
+.title-text-color{
+    color: #F948B2;
+}
+.single-product img{
+    width: 96%;
+}
+.product-tow{
+    width: 96%;
+
+}
+
+.product-tow img{
+    width: 96%;
+}
+
+.product-tree{
+    width: 96%;
+}
+
+.product-tree img{
+    width: 97%;
+}
+
+.product-four{
+    width: 97%;
+}
+
+.product-four img{
+    width: 97%;
+}
+
+ /*products-section-styles end */
+
+/*add section start*/
+.add{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.add-description{
+    
+    display:grid;
+    justify-content:space-around;
+    text-align:start;
+    align-items: center;
+}
+.description-div{
+    width: 200px;
+   margin: 0 auto;
+   text-align:end;
+}
+.add-banner img{
+    width: 70%;
+}
+.add-banner .banner-toy-img{
+    margin-right: -30px;
+    margin-top: -90px;
+}
+.add-banner{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+.banner-theme-img{
+    display:flex ;
+    margin: 0 auto;
+}
+
+/*add section end*/
+
+
+/*product-items section styles start hare*/
+
+.service-container{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto 0 140px;
+
+
+}
+.different-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.different-service img{
+    width: 30px;
+    padding:50px;
+   
+}
+.different-service a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+}
+.more-servises{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    grid-template-columns: repeat(3, 1fr);
+}
+/*product-items section styles end hare*/
+
+
+/*main section end hare*/
+
+/*footer styles start*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #4e4c54;
+}
+.logo-container-primary{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.logo-container-primary img{
+width: 60px;
+}
+.logo-text-container{
+    color: rgb(114, 136, 189);
+}
+.footer-information {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   width:70%;
+   margin: 0 auto 20px;
+   text-align: center;
+   
+
+}
+.footer-information a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+.footer-logo-container{
+ width: 200px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0 auto;
+
+}
+.footer-description{
+display: flex;
+justify-content: center;
+color: rgb(212, 210, 210);
+
+}
+
+
+
+
+
+
+
+@media  screen and (max-width:570px) {
+    .nav-title-container{
+        
+
+    }
+    .nav-title-info{
+        padding: 22px;
+    }
+
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+    .service-container .different-service{
+        margin-bottom: 30px;
+        text-align:left;
+   
+    }
+    .more-servises{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    
+.footer-information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
