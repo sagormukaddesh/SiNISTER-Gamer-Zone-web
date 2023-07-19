@@ -188,7 +188,7 @@ text-transform: lowercase;
 
 }
 .banner-focus-title{
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 40px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -414,16 +414,11 @@ color: rgb(212, 210, 210);
 }
 
 
+/*madia query*/
 
+@media  screen and (max-width: 576px) {
 
-
-
-
-@media  screen and (max-width:576px) {
-    .nav-title-container{
-        
-
-    }
+   
     .nav-title-info{
         padding: 22px;
     }
@@ -461,15 +456,21 @@ color: rgb(212, 210, 210);
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(1fr);
-    
+    }  
     .footer-information{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
+
 }   
      }
      
+     @media  screen and (min-width: 576px) and (max-width: 960px){
 
+
+
+
+
+     }
 
 
 
