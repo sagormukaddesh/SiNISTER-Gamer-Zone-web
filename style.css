@@ -7,7 +7,7 @@ body{
     
 }
 
-.pramary-title-color{
+.primary-title-color{
     color: rgba(224, 0, 127, 0.875);
 }
 
@@ -28,7 +28,7 @@ body{
 }  
 
 .logo-container img{
-    width: 100px;
+    width: 60px;
    
 }
 
@@ -87,7 +87,7 @@ body{
 .banner-container{
     width:100% ;
     height: 400px;
-    display: flex;  
+    display:flex;  
 }
 .banner-text-container{
     width: 50%;
@@ -155,24 +155,23 @@ body{
     min-height: 270px;
 }
 .single-product{
-    width: 97%;
-    border: 1px solid rgb(0, 255, 0);
+    width: 96%;
 }
 
 .single-product img{
-    width: 97%;
+    width: 96%;
 }
 .product-tow{
-    width: 97%;
+    width: 96%;
 
 }
 
 .product-tow img{
-    width: 97%;
+    width: 96%;
 }
 
 .product-tree{
-    width: 97%;
+    width: 96%;
 }
 
 .product-tree img{
@@ -260,25 +259,58 @@ body{
 margin: 0 30px;
 } 
 
-
-
-
-
-
-
-
-
-
-/*product-items section style end hare*/
+/*product-items section styles end hare*/
 
 
 /*main section end hare*/
 
+/*footer styles start*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #4e4c54;
+}
+.logo-container-primary{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.logo-container-primary img{
+width: 60px;
+}
+.logo-text-container{
+    color: rgb(114, 136, 189);
+}
+.footer-information {
+    max-width:700px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 
+}
+.footer-information a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+.footer-logo-container{
+ width: 200px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0 auto;
 
+}
+.footer-description{
+display: flex;
+justify-content: center;
+color: rgb(212, 210, 210);
 
-
-
+}
 
 
 
