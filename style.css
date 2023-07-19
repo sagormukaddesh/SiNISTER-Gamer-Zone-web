@@ -146,8 +146,6 @@ body{
 
 .product-section-title{
    text-align: center;
-   
-
 }
 .product-container{
     display: grid;
@@ -189,29 +187,83 @@ body{
     width: 97%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /*products-section-styles end */
 
+/*add section start*/
+.add{
+    width: 90%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.add-description{
+    width: 50%;
+    display:grid;
+    justify-content: left;
+    text-align:start;
+    align-items: center;
+}
+.description-div{
+    width: 300px;
+   margin: 0 auto;
+   text-align:end;
+}
+.add-banner img{
+    width: 70%;
+}
+.add-banner .banner-toy-img{
+    width: 200px;
+    margin-top: -200px;
+}
+.add-banner{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+.banner-theme-img{
+    display:flex ;
+    margin: 0 auto;
+}
+
+/*add section end*/
+
+
+/*product-items section styles start hare*/
+
+.product-items-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    border: 1px solid red;
+
+}
+.product-variant{
+    display: flex;
+    align-items: center;
+}
+.product-variant img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.product-items-container-2 img{
+    display: flex;
+}
 
 
 
 
 
+
+
+
+
+
+
+/*product-items section style end hare*/
 
 
 /*main section end hare*/
